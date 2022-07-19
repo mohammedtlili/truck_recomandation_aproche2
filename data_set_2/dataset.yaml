@@ -3,10 +3,10 @@
 
 
 #path: ../datasets/coco128  # dataset root dir
-train: /content/drive/MyDrive/face_mask_detection/face_data/train/images  # train images (relative to 'path') 128 images
-val: /content/drive/MyDrive/face_mask_detection/face_data/val/images # val images (relative to 'path') 128 images
+train: /content/truck_recommandation_approach2/data_set_2/data_splited/train/images  # train images (relative to 'path') 128 images
+val: /content/truck_recommandation_approach2/data_set_2/data_splited/val/images # val images (relative to 'path') 128 images
 # test:  # test images (optional)
 
 # Classes
-nc: 2  # number of classes
+nc: 8  # number of classes
 names: [ 'armoire', 'carton', 'chaise', 'lit', 'machine_à_laver', 'refrigérateur', 'sofa', 'table']  # class names
